@@ -18,10 +18,11 @@ function StdForms(){
             <form onSubmit={handleSubmit}>
                 <label>
                     Nome: 
+                    <br />
                     <input type="text" value= {name} onChange={handleChange}/>
                 </label>
                 <br />
-                <button type="submit">Enviar</button>
+                <button type="submit">Registrar</button>
                 <hr />
             </form>
         </div>

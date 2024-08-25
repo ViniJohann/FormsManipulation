@@ -83,16 +83,29 @@ function UserForms(){
             <form onSubmit={handleSubmit}>
                 <label>
                     Nome: 
-                    <input type="text" name="name" value={user.name} onChange={handleChange}/>
+                    <br />
+                    <input 
+                        type="text" 
+                        name="name" 
+                        value={user.name} 
+                        onChange={handleChange}
+                    />
                 </label>
                 <br />
                 <label>
-                    Email: 
-                    <input type="text" name="email" value={user.email} onChange={handleChange}/>
+                    Email:
+                    <br /> 
+                    <input 
+                        type="text" 
+                        name="email" 
+                        value={user.email} 
+                        onChange={handleChange}
+                    />
                 </label>
                 <br />
                 <label>
                     Senha: 
+                    <br />
                     <input 
                         type={showPassword ? "text" : "password"} 
                         name="password" 
@@ -109,6 +122,7 @@ function UserForms(){
                 <br />
                 <label>
                     Confirme sua Senha: 
+                    <br />
                     <input 
                         type={showConfirmPassword ? "text" : "password"} 
                         name="confirmPassword" 
@@ -123,7 +137,7 @@ function UserForms(){
                     </button>
                 </label>
                 <br />
-                <button type="submit">Enviar</button>
+                <button type="submit">Registrar</button>
             </form>
         </div>
     )

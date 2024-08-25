@@ -16,9 +16,17 @@ body {
 
 #content h1 {
     text-align: center;
-    margin: 5px;
+    margin: 2px;
 }
 
 #content h2 {
     padding-top: 20px;
+}
+
+button {
+    margin: 2px 2px 0;
+}
+
+label {
+    font-size: 12px;
 }

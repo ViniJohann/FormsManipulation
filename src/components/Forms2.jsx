@@ -29,20 +29,23 @@ function Forms2(){
             <form onSubmit={handleSubmit}>
                 <label>
                     Rua:
+                    <br />
                     <input type="text" name="street" value={address.street} onChange={handleChange}/>
                 </label>
                 <br />
                 <label>
                     Cidade: 
+                    <br />
                     <input type="text" name="city" value={address.city} onChange={handleChange} />            
                 </label>
                 <br />
                 <label>
-                    CEP:   
+                    CEP:  
+                    <br /> 
                     <input type="text" name="postalCode" value={address.postalCode} onChange={handleChange}/>                 
                 </label>
                 <br />
-                <button type="submit">Enviar</button>
+                <button type="submit">Registrar</button>
                 <hr />
             </form>
         </div>
